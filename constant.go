@@ -4,6 +4,7 @@ import "fmt"
 //import "math"
 
 const s string="constant"
+
 func main() {
     fmt.Println(s)
 

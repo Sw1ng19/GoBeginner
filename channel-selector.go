@@ -6,6 +6,7 @@ func main() {
 	c1 := make(chan string)
 	c2 := make(chan string)
 
+	//接收通道
 	go func() {
 		time.Sleep(time.Second*1)
 		c1 <- "one"

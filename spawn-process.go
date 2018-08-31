@@ -3,6 +3,7 @@ import "fmt"
 import "os/exec"
 
 func main() {
+	//系统编程
 	cmd := exec.Command("date")
 
 	date, err := cmd.Output()

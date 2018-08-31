@@ -1,6 +1,7 @@
 package main
 import "fmt"
 
+//函数闭包
 func intSeq() func() int {
     i := 0
 

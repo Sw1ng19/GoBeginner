@@ -6,6 +6,7 @@ import "net/url"
 func main() {
 	s := "postgres://admin:admin@host.com:5432/path?k=v#f"
 
+	//parse url
 	u,err := url.Parse(s)
 	if err != nil {
 		panic(err)
@@ -13,7 +14,6 @@ func main() {
 	
 	//output: postgres
 	fmt.Println(u.Scheme)
-
 	fmt.Println(u.User)
 	fmt.Println(u.User.Username())
 

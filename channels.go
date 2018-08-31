@@ -10,6 +10,7 @@ func main() {
 		msg <- "buffered"
 	}()
 
+	//发数据
 	m := <- msg
 	fmt.Println(m)
 	
