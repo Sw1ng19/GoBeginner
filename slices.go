@@ -2,7 +2,7 @@ package main
 import "fmt"
 
 func main() {
-    two := make([][]int,3)
+    two := make([][]int, 3)
 
     for i:=0; i<3; i++ {
         innerLen := i+1
