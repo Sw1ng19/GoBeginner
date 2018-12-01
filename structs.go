@@ -14,6 +14,7 @@ func main() {
     fmt.Println(person{name:"fred"})
     s := person{name:"Ann", age:40}
 
+	//sp 是结构体指针
     sp := &s
     fmt.Println(sp.age)
 }
